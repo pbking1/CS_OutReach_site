@@ -1,0 +1,77 @@
+a.pull-right {
+    padding-left: 20px;
+}
+
+#login_form {
+	text-align: center;
+	display: table;
+	margin: auto;
+	padding: 100px 0px 0px 0px;
+}
+
+.inner-wrap button {
+    
+    width: inherit;
+    
+}
+
+#formMonths{
+    
+    width: 120px;
+    
+}
+
+#formDays{
+    
+    width: 55px;
+    
+}
+
+#formYears{
+    
+    width: 90px;
+    
+}
+
+.formTime{
+    
+    width: 65px;
+    
+}
+
+#updateName, #updateSchool, #updateEdu{
+    
+    font-size: 75%;
+    color:#337ab7;
+    font-weight: bold;
+    
+}
+
+#updateName:hover, #updateSchool:hover, #updateEdu:hover {
+  color: #23527c;
+}
+
+#fnField, #lnField, #sField, #eField {
+    
+    width: 40%;
+    
+}
+
+#promoteText, #demoteText {
+    
+    width: 400px;
+    
+}
+
+#teacherData {
+    
+    width: 70%;
+    
+}
+
+#surveySelect {
+    
+    width: 10%;
+    
+}
+
