@@ -7,6 +7,9 @@
 -- Server version: 5.1.73
 -- PHP Version: 5.3.3
 
+create database nelson8_db;
+use nelson8_db;
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 

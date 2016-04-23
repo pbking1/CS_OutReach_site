@@ -39,7 +39,9 @@ pw:  superadmin1
 
 Access Description: super admins can access the admin page; unlike regular admins, they can promote and demote users to/from admin level2 -- also has access to all features of lower access level accounts
 
- 
+**Add request to attend event function and click on a date on the calendar will redirect to a new page that have to form to request to attend event**
+
+**Add a segment of php code to get the news from hackernews(a famous programmer news website)**
 
 Admin Level 2 (regular admin):
 
@@ -75,3 +77,4 @@ The source code is self-contained. Use your preferred FTP program to transfer th
 Database:
 The database is formatted in a myPhpAdmin database. The database creation script is included in the source code package and can be imported into myPhpAdmin. The file is called: "nelson8_db.sql".
 
+**a new file called nelson8_db_2.sql is added for an additional database that store the request of the event and the store procedure that insert the record**

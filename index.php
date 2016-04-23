@@ -29,6 +29,22 @@ include "header.php";
 			echo "This is just an example of how text is formatted on the page.";
 		}*/
    	?>
+	<?php
+		include_once('simple_html_dom.php');
+		$html = file_get_html('https://news.ycombinator.com/');
+		$flag = 0;
+		foreach($html->find('a') as $e)
+			if($flag == 1){
+				$content1 = $e -> outertext;
+				$content1_array = explode("\n", $content1);
+				for($i = 0; $i < count($content1_array); $i++){
+					if(strlen($content1_array[$i]) > 80)
+						echo $content1_array[$i]."<br>";
+				}
+			}
+			else
+				$flag =1;
+	?>
     </p>
     
     

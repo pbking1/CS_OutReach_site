@@ -24,6 +24,10 @@
             displayEventTime: true,
 			editable: false,
 			eventLimit: true, // allow "more" link when too many events
+			dayClick: function(date, jsEvent, view){
+				alert('you click on: ' + date.format());
+				document.location.href = "requestEvent.php";
+			},
 			events: [
 				
                 
